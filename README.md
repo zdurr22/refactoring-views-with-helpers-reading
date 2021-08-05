@@ -327,10 +327,6 @@ And just like that, we are using an application helper to dynamically set the pa
 
 When we start repeating the same pieces of presentation logic across more than one view, we want to use the Don't Repeat Yourself (DRY) principle as our guide and extract that code into helpers. Helpers are organized by concern in the same way that models, views, and controllers are, so always make sure you're putting your helper code in the appropriate place. If it's code specific to a given model/controller, it belongs in that controller's helper. If it's code that's broadly applicable to the entire application, then it goes in the `application_helper`.
 
-## Video Review
-
-- [Refactoring Views into Partials and Helpers](https://www.youtube.com/watch?v=UYhkBd2Mnl0)
-
 [strftime]: http://ruby-doc.org/core-2.2.0/Time.html#method-i-strftime
 [goodstrftime]: http://www.foragoodstrftime.com/
 [layouts]: http://guides.rubyonrails.org/layouts_and_rendering.html#using-the-content-for-method
